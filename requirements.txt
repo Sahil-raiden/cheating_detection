@@ -1,6 +1,6 @@
 streamlit==1.19.0
 opencv-python==4.7.0.72
-tensorflow==2.10.0
+tensorflow==2.15.0
 mediapipe
 ultralytics==8.0.20
 numpy==1.23.5
