@@ -1,0 +1,9 @@
+streamlit
+opencv-python
+mediapipe
+tensorflow
+ultralytics
+gitpython
+Pillow
+smtplib
+email
