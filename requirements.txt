@@ -6,3 +6,4 @@ ultralytics==8.0.20
 numpy
 Pillow
 matplotlib
+altair==4.2.2
