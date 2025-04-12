@@ -1,9 +1,8 @@
-streamlit
-opencv-python
-mediapipe
-tensorflow
-ultralytics
-gitpython
+streamlit==1.30.0
+opencv-python==4.7.0.72
+tensorflow==2.10.0
+mediapipe==0.9.1
+ultralytics==8.0.20
 Pillow
-smtplib
-email
+numpy
+matplotlib
