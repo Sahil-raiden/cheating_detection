@@ -38,11 +38,12 @@ def normalize_pose(keypoints):
 
     keypoints_rotated = []
     for i in range(0, len(keypoints), 3):
+        print(i)
         x, y, z = keypoints[i], keypoints[i+1], keypoints[i+2]
         x_new = x * np.cos(angle) - y * np.sin(angle)
         y_new = x * np.sin(angle) + y * np.cos(angle)
         keypoints_rotated.extend([x_new, y_new, z])
-
+    
     return np.array(keypoints_rotated)
 
 def detect_persons(image):
